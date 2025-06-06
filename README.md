@@ -18,22 +18,24 @@ Each button example lives in its own folder with self-contained HTML, CSS, and J
 
 ## 📂 Repository Structure
 
-web-animations-buttons/
-├── README.md
-├── no-js/
-│   ├── <feature>/
-│   │   ├── index.html
-│   │   └── style.css
-│   └── gradient-border/
-│       ├── index.html
-│       └── style.css
-├── js/
-│   └── <feature>/
-│       ├── index.html
-│       ├── style.css
-│       └── script.js
-├── frameworks/
-    └── <feature>/
-        ├── README.md
-        ├── Button.jsx
+```
+web-animations-buttons/  
+├── README.md  
+├── no-js/  
+│   ├── <feature>/  
+│   │   ├── index.html  
+│   │   └── style.css  
+│   └── gradient-border/  
+│       ├── index.html  
+│       └── style.css  
+├── js/  
+│   └── <feature>/  
+│       ├── index.html  
+│       ├── style.css  
+│       └── script.js  
+├── frameworks/  
+    └── <feature>/  
+        ├── README.md  
+        ├── Button.jsx  
         └── package.json
+```
