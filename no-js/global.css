@@ -1,0 +1,12 @@
+/* no-js/global.css */
+
+body {
+  background-color: #121212;  /* Dark background */
+  display: flex;
+  justify-content: center;    /* Horizontal center */
+  align-items: center;        /* Vertical center */
+  height: 100vh;              /* Full viewport height */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}

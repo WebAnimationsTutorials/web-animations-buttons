@@ -1,0 +1,37 @@
+.radial-button {
+  position: relative;
+  padding: 1rem 2.5rem;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 0 0 2px #ffffff10, 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.radial-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, #00ffd5, #0085ff);
+  transition: transform 0.5s ease;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.radial-button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.radial-button:hover {
+  color: #000;
+  background-color: #ffffff;
+}
